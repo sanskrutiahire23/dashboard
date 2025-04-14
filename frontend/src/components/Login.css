@@ -1,0 +1,15 @@
+#sign{
+    position: relative;
+    left: 500px;
+    bottom:100px;
+    border-radius: 5px;
+   background-color:  rgb(123, 201, 182);
+   height: 40px;
+}
+#sign:hovor{
+    background-color:  rgb(70, 116, 104);
+}
+#sign:hover {
+    background-color: #6acfa2; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+  }
