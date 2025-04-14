@@ -60,7 +60,7 @@ const Session = () => {
     setEvents([...events]);
 
     try {
-      const response = await axios.post("http://localhost:5000/addsession", {
+      const response = await axios.post("https://dashboard-uuia.onrender.com/addsession", {
         title: eventTitle,
         date: `${currentYear}-${currentMonth + 1}-${activeDay}`,
         time: eventTimeAM,

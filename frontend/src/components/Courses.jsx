@@ -72,7 +72,7 @@ const Courses = () => {
     console.log('Sending course data:', courseData); 
 
     try {
-      const response = await fetch('http://localhost:5000/addcourse', {
+      const response = await fetch('https://dashboard-uuia.onrender.com/addcourse', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -10,7 +10,7 @@ const Mycourses = () => {
 
   const getCourses = async () => {
     try {
-      const response = await fetch('http://localhost:5000/getcourse', {
+      const response = await fetch('https://dashboard-uuia.onrender.com/getcourse', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
